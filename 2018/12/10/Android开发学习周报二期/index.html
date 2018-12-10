@@ -4,20 +4,20 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
-  <title>Android开发学习周报一期 | 安卓技术小组</title>
+  <title>Android开发学习周报二期 | 安卓技术小组</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="文章一. 为什么Dialog不能用Application的Context  一个简单的常识，如果有人问你，你发现说不太清除，就得好好看看这篇文章了 文章从一个简单的问题入手，顺着源码一路深入浅出，最后落点安全考虑，很是不错。">
+  <meta name="description" content="文章一. 美团外卖Android Crash治理之路  美团大厂的 Crash 治理手册，将App的Crash率从千分之三做到万分之二的实践 符合近期公司质量提升计划，强烈推荐 重点可读一下 NullPointerException、内存泄漏、AOP 方面的治理">
 <meta name="keywords" content="周报">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Android开发学习周报一期">
-<meta property="og:url" content="https://haichaoyuan.github.io/AndroidTechTeam/2018/12/03/Android开发学习周报一期/index.html">
+<meta property="og:title" content="Android开发学习周报二期">
+<meta property="og:url" content="https://haichaoyuan.github.io/AndroidTechTeam/2018/12/10/Android开发学习周报二期/index.html">
 <meta property="og:site_name" content="安卓技术小组">
-<meta property="og:description" content="文章一. 为什么Dialog不能用Application的Context  一个简单的常识，如果有人问你，你发现说不太清除，就得好好看看这篇文章了 文章从一个简单的问题入手，顺着源码一路深入浅出，最后落点安全考虑，很是不错。">
+<meta property="og:description" content="文章一. 美团外卖Android Crash治理之路  美团大厂的 Crash 治理手册，将App的Crash率从千分之三做到万分之二的实践 符合近期公司质量提升计划，强烈推荐 重点可读一下 NullPointerException、内存泄漏、AOP 方面的治理">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-04T02:38:51.369Z">
+<meta property="og:updated_time" content="2018-12-10T09:49:12.072Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Android开发学习周报一期">
-<meta name="twitter:description" content="文章一. 为什么Dialog不能用Application的Context  一个简单的常识，如果有人问你，你发现说不太清除，就得好好看看这篇文章了 文章从一个简单的问题入手，顺着源码一路深入浅出，最后落点安全考虑，很是不错。">
+<meta name="twitter:title" content="Android开发学习周报二期">
+<meta name="twitter:description" content="文章一. 美团外卖Android Crash治理之路  美团大厂的 Crash 治理手册，将App的Crash率从千分之三做到万分之二的实践 符合近期公司质量提升计划，强烈推荐 重点可读一下 NullPointerException、内存泄漏、AOP 方面的治理">
   
     <link rel="alternative" href="/atom.xml" title="安卓技术小组" type="application/atom+xml">
   
@@ -75,10 +75,10 @@
   </div>
 </header>
     <div class="outer">
-      <section id="main"><article id="post-Android开发学习周报一期" class="article article-type-post" itemscope="" itemprop="blogPost">
+      <section id="main"><article id="post-Android开发学习周报二期" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
-    <a href="/AndroidTechTeam/2018/12/03/Android开发学习周报一期/" class="article-date">
-  <time datetime="2018-12-03T08:42:54.000Z" itemprop="datePublished">2018-12-03</time>
+    <a href="/AndroidTechTeam/2018/12/10/Android开发学习周报二期/" class="article-date">
+  <time datetime="2018-12-10T08:59:50.000Z" itemprop="datePublished">2018-12-10</time>
 </a>
     
   </div>
@@ -89,7 +89,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Android开发学习周报一期
+      Android开发学习周报二期
     </h1>
   
 
@@ -97,42 +97,34 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><p><a href="https://www.jianshu.com/p/628ac6b68c15" target="_blank" rel="noopener">一. 为什么Dialog不能用Application的Context</a></p>
+        <h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><p><a href="https://tech.meituan.com/waimai_android_crash.html" target="_blank" rel="noopener">一. 美团外卖Android Crash治理之路</a></p>
 <ol>
-<li>一个简单的常识，如果有人问你，你发现说不太清除，就得好好看看这篇文章了</li>
-<li>文章从一个简单的问题入手，顺着源码一路深入浅出，最后落点安全考虑，很是不错。</li>
+<li>美团大厂的 Crash 治理手册，将App的Crash率从千分之三做到万分之二的实践</li>
+<li>符合近期公司质量提升计划，强烈推荐</li>
+<li>重点可读一下 NullPointerException、内存泄漏、AOP 方面的治理</li>
 </ol>
 <a id="more"></a>
-<p><a href="http://www.appgole.com/2018/04/20/apkuncode/" target="_blank" rel="noopener">二. Android反编译的简单总结</a></p>
+<p><a href="https://mp.weixin.qq.com/s/cLhf-SSS3I5SkPEFd5Cxbw" target="_blank" rel="noopener">二. 不到100行代码实现左右对齐TextView</a></p>
 <ol>
-<li>简单总结了android反编译的入门知识</li>
-<li>常用的反编译工具及其指令</li>
-<li>针对各厂商修改framework层的解决方案</li>
+<li>TextView 左右对齐的需求是常见需求，短小精悍，读来有趣有料</li>
+<li>喜欢这种从小处痛点出发，带我们源码一波游的操作</li>
 </ol>
-<p><a href="https://www.jianshu.com/p/b81f5e0d3241" target="_blank" rel="noopener">三. 彻底搞懂CoordinatorLayout</a></p>
+<p><a href="https://www.jianshu.com/p/7f2941dbfb17" target="_blank" rel="noopener">三. Android下setTextSize的正确使用姿势</a></p>
 <ol>
-<li>android Material Desgin风格控件，主要讲的 Behavior 行为</li>
+<li>新的屏幕方案也会用到</li>
+<li>理清楚 TextView#setTextSize 方法里，传入具体数字和从资源文件获取的数值之间的区别</li>
 </ol>
-<p><a href="https://tech.meituan.com/Android_LiveDataBus.html" target="_blank" rel="noopener">四. Android消息总线的演进之路：用LiveDataBus替代RxBus、EventBus</a></p>
-<ol>
-<li>本文由简及难的介绍了三种事件总线的简单原理以及优劣，详细描述了问题解决的过程，对于<br>==Architecture components==组件学习很有帮助</li>
-</ol>
-<p><a href="https://www.jianshu.com/p/88cf79b70402" target="_blank" rel="noopener">五. 在Android中使用JNA</a></p>
-<ol>
-<li>Java Native Access (JNA)使用一种更优雅的方式调用Natice层</li>
-<li>开源社区维护,跨平台</li>
-<li>被众多公司使用,如Apache Cassandra,IntelliJ IDEA,NetBeans IDE全家桶等</li>
-</ol>
+<p><a href="https://mp.weixin.qq.com/s/521JisvynJkxbTVTvXoujg" target="_blank" rel="noopener">四. Android架构分层演进实践</a></p>
 
       
     </div>
     <footer class="article-footer">
       
-        <a data-url="https://haichaoyuan.github.io/AndroidTechTeam/2018/12/03/Android开发学习周报一期/" data-id="cjpi4qa470000a2kwnnarqz9d" class="article-share-link" data-share="baidu" data-title="Android开发学习周报一期">Share</a>
+        <a data-url="https://haichaoyuan.github.io/AndroidTechTeam/2018/12/10/Android开发学习周报二期/" data-id="cjpi4qa4b0001a2kwvt0p4cl2" class="article-share-link" data-share="baidu" data-title="Android开发学习周报二期">Share</a>
       
 
       
-        <a href="https://haichaoyuan.github.io/AndroidTechTeam/2018/12/03/Android开发学习周报一期/#ds-thread" class="article-comment-link">Comments</a>
+        <a href="https://haichaoyuan.github.io/AndroidTechTeam/2018/12/10/Android开发学习周报二期/#ds-thread" class="article-comment-link">Comments</a>
       
 
       
@@ -144,15 +136,11 @@
     
 <nav id="article-nav">
   
-    <a href="/AndroidTechTeam/2018/12/10/Android开发学习周报二期/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Android开发学习周报二期
-        
-      </div>
-    </a>
   
+    <a href="/AndroidTechTeam/2018/12/03/Android开发学习周报一期/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Android开发学习周报一期</div>
+    </a>
   
 </nav>
 
@@ -161,7 +149,7 @@
 
 
   <section id="comments">
-    <div id="ds-thread" class="ds-thread" data-thread-key="2018/12/03/Android开发学习周报一期/" data-title="Android开发学习周报一期" data-url="https://haichaoyuan.github.io/AndroidTechTeam/2018/12/03/Android开发学习周报一期/"></div>
+    <div id="ds-thread" class="ds-thread" data-thread-key="2018/12/10/Android开发学习周报二期/" data-title="Android开发学习周报二期" data-url="https://haichaoyuan.github.io/AndroidTechTeam/2018/12/10/Android开发学习周报二期/"></div>
   </section>
 </section>
       
